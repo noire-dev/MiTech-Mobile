@@ -3,6 +3,7 @@
 name: Android apk CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "master" ]
     paths:
