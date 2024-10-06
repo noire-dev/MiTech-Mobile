@@ -7,12 +7,12 @@ android {
     //compileOptions.encoding "gbk"
 
     defaultConfig {
-        applicationId "com.karin.idTech4Amm"
+        applicationId "org.noiredev.sandbox"
         minSdkVersion project.properties.minSdkVersion.toInteger()
         targetSdkVersion project.properties.targetSdkVersion.toInteger()
-        versionCode 11056
-        versionName '1.1.0harmattan56'
-        versionNameSuffix 'natasha'
+        versionCode 4000
+        versionName '4.0'
+        versionNameSuffix 'noiredev'
         buildConfigField "long", "BUILD_TIMESTAMP", System.currentTimeMillis() + "L"
         buildConfigField "int", "BUILD_SDK_VERSION", 30 + ""
     }

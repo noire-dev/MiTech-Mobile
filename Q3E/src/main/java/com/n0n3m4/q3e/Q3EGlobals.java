@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public final class Q3EGlobals
 {
-    public static final String CONST_PACKAGE_NAME = "org.noiredev.qsandbox";
+    public static final String CONST_PACKAGE_NAME = "org.noiredev.sandbox";
     public static final String CONST_APP_NAME = "MiTech Mobile"; // "DIII4A++";
 
     // log tag
@@ -158,7 +158,7 @@ public final class Q3EGlobals
     public static final String GAME_NAME_QUAKE4   = "Quake 4";
     public static final String GAME_NAME_PREY     = "Prey(2006)";
     public static final String GAME_NAME_QUAKE2   = "Quake 2";
-    public static final String GAME_NAME_QUAKE3   = "Quake 3";
+    public static final String GAME_NAME_QUAKE3   = "Quake Sandbox";
     public static final String GAME_NAME_RTCW     = "RTCW"; // "Return to Castle Wolfenstein";
     public static final String GAME_NAME_TDM      = "Dark mod"; // The Dark Mod
     public static final String GAME_NAME_QUAKE1   = "Quake 1";
@@ -171,7 +171,7 @@ public final class Q3EGlobals
     public static final String GAME_BASE_QUAKE4     = "q4base";
     public static final String GAME_BASE_PREY       = "preybase"; // Other platform is `base`
     public static final String GAME_BASE_QUAKE2     = "baseq2";
-    public static final String GAME_BASE_QUAKE3     = "baseq3";
+    public static final String GAME_BASE_QUAKE3     = "mitech";
     public static final String GAME_BASE_RTCW       = "main";
     public static final String GAME_BASE_TDM        = ""; // the dark mod is standalone
     public static final String GAME_BASE_QUAKE1     = "darkplaces/id1"; // "darkplaces";
