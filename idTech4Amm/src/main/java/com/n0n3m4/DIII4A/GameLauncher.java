@@ -1608,55 +1608,9 @@ public class GameLauncher extends Activity
 			OpenTranslatorsDialog();
 			return true;
 		}
-
-		else if (itemId == R.id.main_menu_game_doom3)
-		{
-			ChangeGame(Q3EGlobals.GAME_DOOM3);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_quake4)
-		{
-			ChangeGame(Q3EGlobals.GAME_QUAKE4);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_prey)
-		{
-			ChangeGame(Q3EGlobals.GAME_PREY);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_quake1)
-		{
-			ChangeGame(Q3EGlobals.GAME_QUAKE1);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_quake2)
-		{
-			ChangeGame(Q3EGlobals.GAME_QUAKE2);
-			return true;
-		}
 		else if (itemId == R.id.main_menu_game_quake3)
 		{
 			ChangeGame(Q3EGlobals.GAME_QUAKE3);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_rtcw)
-		{
-			ChangeGame(Q3EGlobals.GAME_RTCW);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_tdm)
-		{
-			ChangeGame(Q3EGlobals.GAME_TDM);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_doom3bfg)
-		{
-			ChangeGame(Q3EGlobals.GAME_DOOM3BFG);
-			return true;
-		}
-		else if (itemId == R.id.main_menu_game_doom)
-		{
-			ChangeGame(Q3EGlobals.GAME_GZDOOM);
 			return true;
 		}
 		else if (itemId == android.R.id.home)

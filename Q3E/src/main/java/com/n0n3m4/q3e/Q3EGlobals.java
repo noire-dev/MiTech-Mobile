@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public final class Q3EGlobals
 {
-    public static final String CONST_PACKAGE_NAME = "com.karin.idTech4Amm";
-    public static final String CONST_APP_NAME = "idTech4A++"; // "DIII4A++";
+    public static final String CONST_PACKAGE_NAME = "org.noiredev.qsandbox";
+    public static final String CONST_APP_NAME = "MiTech Mobile"; // "DIII4A++";
 
     // log tag
     public static final String CONST_Q3E_LOG_TAG = "Q3E";
