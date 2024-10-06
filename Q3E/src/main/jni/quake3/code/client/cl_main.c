@@ -3151,7 +3151,7 @@ void CL_StartHunkUsers( qboolean rendererOnly ) {
 		return;
 	}
 
-	FS_Reload();
+	//FS_Reload();
 
 	if ( !cls.rendererStarted ) {
 		cls.rendererStarted = qtrue;
