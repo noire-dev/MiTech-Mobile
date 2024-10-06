@@ -1216,7 +1216,7 @@ R_CreateDefaultImage
 */
 #define	DEFAULT_SIZE	16
 static void R_CreateDefaultImage( void ) {
-	int		x;
+	int		x, y;
 	byte	data[DEFAULT_SIZE][DEFAULT_SIZE][4];
 
 	// the default image will be a box, to allow you to see the mapping coordinates

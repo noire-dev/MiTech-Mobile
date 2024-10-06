@@ -2602,7 +2602,7 @@ int	FS_GetModList( char *listbuf, int bufsize ) {
 			pDirs = Sys_ListFiles(path, "/", NULL, &nDirs, qfalse);
 			for (k = 0; k < nDirs; k++) {
 				// we only want to count directories ending with ".pk3dir"
-				if (FS_IsExt(pDirs[k], ".pk3dir", strlen(pDirs[k]))) {
+				if (FS_IsExt(pDirs[k], va(".%s",cl_selectedmod->string), strlen(pDirs[k]))) {
 					nPakDirs++;
 				}
 			}
@@ -3022,7 +3022,7 @@ void FS_AddGameDirectory( const char *path, const char *dir ) {
 			// The next .pk3dir is before the next .pk3 file
 			// But wait, this could be any directory, we're filtering to only ending with ".pk3dir" here.
 			len = strlen(pakdirs[pakdirsi]);
-			if (!FS_IsExt(pakdirs[pakdirsi], ".pk3dir", len)) {
+			if (!FS_IsExt(pakdirs[pakdirsi], va(".%s",cl_selectedmod->string), len)) {
 				// This isn't a .pk3dir! Next!
 				pakdirsi++;
 				continue;
@@ -3459,15 +3459,6 @@ static void FS_Startup( const char *gameName )
 		}
 #endif
 	}
-
-#ifndef STANDALONE
-	if (!com_standalone->integer) {
-		Com_ReadCDKey(BASEGAME);
-		if (fs_gamedirvar->string[0]) {
-			Com_AppendCDKey(fs_gamedirvar->string);
-		}
-	}
-#endif
 
 	// add our commands
 	Cmd_AddCommand ("path", FS_Path_f);
@@ -4038,10 +4029,6 @@ void FS_InitFilesystem( void ) {
 	// try to start up normally
 	FS_Startup(com_basegame->string);
 
-#ifndef STANDALONE
-	FS_CheckPak0( );
-#endif
-
 	// if we can't find default.cfg, assume that the paths are
 	// busted and error out now, rather than getting an unreadable
 	// graphics screen when the font fails to load
@@ -4075,10 +4062,6 @@ void FS_Restart( int checksumFeed ) {
 
 	// try to start up normally
 	FS_Startup(com_basegame->string);
-
-#ifndef STANDALONE
-	FS_CheckPak0( );
-#endif
 
 	// if we can't find default.cfg, assume that the paths are
 	// busted and error out now, rather than getting an unreadable

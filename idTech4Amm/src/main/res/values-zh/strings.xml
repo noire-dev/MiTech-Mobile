@@ -84,7 +84,7 @@
     <string name="quake_1">雷神之锤1</string>
     <string name="quake_4">雷神之锤4</string>
     <string name="quake_2">雷神之锤2</string>
-    <string name="quake_3">雷神之锤3</string>
+    <string name="quake_3">Quake Sandbox</string>
     <string name="rtcw">重返德军总部</string>
     <string name="tdm">Dark mod</string>
     <string name="doom">毁灭战士</string>
@@ -294,7 +294,7 @@
     <string name="doom_base">毁灭战士</string>
     <string name="doom1_base">毁灭战士</string>
     <string name="doom2_base">毁灭战士2</string>
-    <string name="quake_3_base">雷神之锤3:竞技场</string>
+    <string name="quake_3_base">Quake Sandbox</string>
     <string name="quake_3_teamarena">雷神之锤3:团队竞技场</string>
     <string name="stop">停止</string>
     <string name="scroll_to_top">顶部</string>

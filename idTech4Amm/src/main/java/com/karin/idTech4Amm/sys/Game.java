@@ -54,8 +54,7 @@ public enum Game
     TDM_BASE(Q3EGlobals.GAME_TDM, "", "", "thedarkmod", "", false, R.string.tdm_base),
 
     // Quake 3
-    QUAKE3_BASE(Q3EGlobals.GAME_QUAKE3, "baseq3", "", "qagame", "", false, R.string.quake_3_base),
-    QUAKE3_TEAMARENA(Q3EGlobals.GAME_QUAKE3, "missionpack", "missionpack", "qagame_mp", "", true, R.string.quake_3_teamarena),
+    QUAKE3_BASE(Q3EGlobals.GAME_QUAKE3, "milab", "", "qagame", "", false, R.string.quake_3_base),
 
     // Doom3 BFG
     D3BFG_BASE(Q3EGlobals.GAME_DOOM3BFG, "base", "", "RBDoom3BFG", "", false, R.string.d3bfg_base),

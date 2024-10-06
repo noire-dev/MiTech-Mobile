@@ -37,9 +37,9 @@ int demo_protocols[] =
 #define MAX_NUM_ARGVS	50
 
 #define MIN_DEDICATED_COMHUNKMEGS 1
-#define MIN_COMHUNKMEGS		56
-#define DEF_COMHUNKMEGS 	128
-#define DEF_COMZONEMEGS		24
+#define MIN_COMHUNKMEGS		2047
+#define DEF_COMHUNKMEGS 	2047
+#define DEF_COMZONEMEGS		128
 #define DEF_COMHUNKMEGS_S	XSTRING(DEF_COMHUNKMEGS)
 #define DEF_COMZONEMEGS_S	XSTRING(DEF_COMZONEMEGS)
 
@@ -66,6 +66,7 @@ cvar_t	*com_altivec;
 cvar_t	*com_timedemo;
 cvar_t	*com_sv_running;
 cvar_t	*com_cl_running;
+cvar_t	*cl_selectedmod;
 cvar_t	*com_logfile;		// 1 = buffer log, 2 = flush after each print
 cvar_t	*com_pipefile;
 cvar_t	*com_showtrace;
@@ -1569,7 +1570,7 @@ void Com_InitHunkMemory( void ) {
 		s_hunkTotal = 1024 * 1024 * nMinAlloc;
 	    Com_Printf(pMsg, nMinAlloc, s_hunkTotal / (1024 * 1024));
 	} else {
-		s_hunkTotal = cv->integer * 1024 * 1024;
+		s_hunkTotal = MIN_COMHUNKMEGS * 1024 * 1024;
 	}
 
 	s_hunkData = calloc( s_hunkTotal + 31, 1 );
@@ -2695,6 +2696,8 @@ void Com_Init( char *commandLine ) {
 	// done early so bind command exists
 	CL_InitKeyCommands();
 
+	cl_selectedmod = Cvar_Get("cl_selectedmod", "default", CVAR_ARCHIVE | CVAR_SERVERINFO);
+
 	com_standalone = Cvar_Get("com_standalone", "0", CVAR_ROM);
 	com_basegame = Cvar_Get("com_basegame", BASEGAME, CVAR_INIT);
 	com_homepath = Cvar_Get("com_homepath", "", CVAR_INIT|CVAR_PROTECTED);
@@ -2741,7 +2744,7 @@ void Com_Init( char *commandLine ) {
 	// init commands and vars
 	//
 	com_altivec = Cvar_Get ("com_altivec", "1", CVAR_ARCHIVE);
-	com_maxfps = Cvar_Get ("com_maxfps", "85", CVAR_ARCHIVE);
+	com_maxfps = Cvar_Get ("com_maxfps", "60", CVAR_ARCHIVE);
 	com_blood = Cvar_Get ("com_blood", "1", CVAR_ARCHIVE);
 
 	com_logfile = Cvar_Get ("logfile", "0", CVAR_TEMP );
@@ -2950,11 +2953,7 @@ void Com_WriteConfiguration( void ) {
 	{
 		const char *gamedir;
 		gamedir = Cvar_VariableString( "fs_game" );
-		if (UI_usesUniqueCDKey() && gamedir[0] != 0) {
-			Com_WriteCDKey( gamedir, &cl_cdkey[16] );
-		} else {
-			Com_WriteCDKey( BASEGAME, cl_cdkey );
-		}
+		Com_WriteCDKey( BASEGAME, cl_cdkey );
 	}
 #endif
 }

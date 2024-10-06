@@ -646,13 +646,14 @@ void SV_Init (void)
 	sv_minPing = Cvar_Get ("sv_minPing", "0", CVAR_ARCHIVE | CVAR_SERVERINFO );
 	sv_maxPing = Cvar_Get ("sv_maxPing", "0", CVAR_ARCHIVE | CVAR_SERVERINFO );
 	sv_floodProtect = Cvar_Get ("sv_floodProtect", "1", CVAR_ARCHIVE | CVAR_SERVERINFO );
+	sv_viewdistance = Cvar_Get( "sv_viewdistance", "16", CVAR_ARCHIVE | CVAR_SERVERINFO );
 
 	// systeminfo
 	Cvar_Get ("sv_cheats", "1", CVAR_SYSTEMINFO | CVAR_ROM );
 	sv_serverid = Cvar_Get ("sv_serverid", "0", CVAR_SYSTEMINFO | CVAR_ROM );
-	sv_pure = Cvar_Get ("sv_pure", "1", CVAR_SYSTEMINFO );
+	sv_pure = Cvar_Get ("sv_pure", "0", CVAR_SYSTEMINFO );
 #ifdef USE_VOIP
-	sv_voip = Cvar_Get("sv_voip", "1", CVAR_LATCH);
+	sv_voip = Cvar_Get("sv_voip", "0", CVAR_LATCH);
 	Cvar_CheckRange(sv_voip, 0, 1, qtrue);
 	sv_voipProtocol = Cvar_Get("sv_voipProtocol", sv_voip->integer ? "opus" : "", CVAR_SYSTEMINFO | CVAR_ROM );
 #endif
@@ -664,8 +665,8 @@ void SV_Init (void)
 	// server vars
 	sv_rconPassword = Cvar_Get ("rconPassword", "", CVAR_TEMP );
 	sv_privatePassword = Cvar_Get ("sv_privatePassword", "", CVAR_TEMP );
-	sv_fps = Cvar_Get ("sv_fps", "20", CVAR_TEMP );
-	sv_timeout = Cvar_Get ("sv_timeout", "200", CVAR_TEMP );
+	sv_fps = Cvar_Get ("sv_fps", "60", CVAR_TEMP );
+	sv_timeout = Cvar_Get ("sv_timeout", "999999", CVAR_TEMP );
 	sv_zombietime = Cvar_Get ("sv_zombietime", "2", CVAR_TEMP );
 	Cvar_Get ("nextmap", "", CVAR_TEMP );
 

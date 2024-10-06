@@ -57,6 +57,7 @@ cvar_t	*sv_maxPing;
 cvar_t	*sv_gametype;
 cvar_t	*sv_pure;
 cvar_t	*sv_floodProtect;
+cvar_t	*sv_viewdistance;
 cvar_t	*sv_lanForceRate; // dedicated 1 (LAN) server forces local client rates to 99999 (bug #491)
 #ifndef STANDALONE
 cvar_t	*sv_strictAuth;
@@ -595,6 +596,7 @@ if a user is interested in a server to do a full status
 void SVC_Info( netadr_t from ) {
 	int		i, count, humans;
 	char	*gamedir;
+	char	*addondir;
 	char	infostring[MAX_INFO_STRING];
 
 	// ignore if we are in single player
@@ -677,6 +679,9 @@ void SVC_Info( netadr_t from ) {
 	if( *gamedir ) {
 		Info_SetValueForKey( infostring, "game", gamedir );
 	}
+	
+	addondir = Cvar_VariableString( "cl_selectedmod" );
+	Info_SetValueForKey( infostring, "addonname", addondir );
 
 	NET_OutOfBandPrint( NS_SERVER, from, "infoResponse\n%s", infostring );
 }

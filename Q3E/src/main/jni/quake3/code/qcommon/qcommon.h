@@ -133,11 +133,11 @@ NET
 
 #define	MAX_PACKET_USERCMDS		32		// max number of usercmd_t in a packet
 
-#define	MAX_SNAPSHOT_ENTITIES	256
+#define	MAX_SNAPSHOT_ENTITIES	4096
 
 #define	PORT_ANY			-1
 
-#define	MAX_RELIABLE_COMMANDS	64			// max string commands buffered for restransmit
+#define	MAX_RELIABLE_COMMANDS	512			// max string commands buffered for restransmit
 
 typedef enum {
 	NA_BAD = 0,					// an address lookup failed
@@ -188,7 +188,7 @@ void		NET_LeaveMulticast6(void);
 void		NET_Sleep(int msec);
 
 
-#define	MAX_MSGLEN				16384		// max length of a message, which may
+#define	MAX_MSGLEN				262144		// max length of a message, which may
 											// be fragmented into multiple packets
 
 #define MAX_DOWNLOAD_WINDOW		48	// ACK window of 48 download chunks. Cannot set this higher, or clients
@@ -884,6 +884,7 @@ extern	cvar_t	*com_protocol;
 #ifdef LEGACY_PROTOCOL
 extern	cvar_t	*com_legacyprotocol;
 #endif
+extern 	cvar_t	*cl_selectedmod;
 #ifndef DEDICATED
 extern  cvar_t  *con_autochat;
 #endif
@@ -1098,6 +1099,7 @@ void	Sys_Print( const char *msg );
 
 // Sys_Milliseconds should only be used for profiling purposes,
 // any game related timing information should come from event timestamps
+//void	Sys_Cmd( const char *command );
 int		Sys_Milliseconds (void);
 
 qboolean Sys_RandomBytes( byte *string, int len );

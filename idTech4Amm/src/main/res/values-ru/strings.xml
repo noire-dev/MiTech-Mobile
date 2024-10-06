@@ -78,7 +78,7 @@
     <string name="quake_4">Quake 4</string>
     <string name="quake_1">Quake 1</string>
     <string name="quake_2">Quake 2</string>
-    <string name="quake_3">Quake 3</string>
+    <string name="quake_3">Quake Sandbox</string>
     <string name="rtcw">RTCW</string>
     <string name="tdm">Dark mod</string>
     <string name="doom">DOOM</string>
@@ -285,7 +285,7 @@
     <string name="doom_base">DOOM</string>
     <string name="doom1_base">DOOM</string>
     <string name="doom2_base">DOOM II</string>
-    <string name="quake_3_base">Quake III:Arena</string>
+    <string name="quake_3_base">Quake Sandbox</string>
     <string name="quake_3_teamarena">Quake III:Team Arena</string>
     <string name="option">Опции</string>
     <string name="stop">Стоп</string>
