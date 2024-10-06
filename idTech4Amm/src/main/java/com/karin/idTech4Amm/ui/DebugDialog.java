@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.ui;
+package org.noiredev.sandbox.ui;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.app.FragmentManager;
 import android.app.Dialog;
 
-import com.karin.idTech4Amm.R;
+import org.noiredev.sandbox.R;
 
 /**
  * Debug dialog

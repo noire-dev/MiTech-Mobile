@@ -1,9 +1,9 @@
-package com.karin.idTech4Amm.network;
+package org.noiredev.sandbox.network;
 
 import android.content.Context;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.sys.Constants;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.sys.Constants;
 import com.n0n3m4.q3e.Q3ELang;
 
 import org.json.JSONObject;

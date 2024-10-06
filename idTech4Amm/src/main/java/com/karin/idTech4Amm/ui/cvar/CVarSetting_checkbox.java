@@ -1,9 +1,9 @@
-package com.karin.idTech4Amm.ui.cvar;
+package org.noiredev.sandbox.ui.cvar;
 
 import android.content.Context;
 import android.widget.CheckBox;
 
-import com.karin.idTech4Amm.lib.KCVar;
+import org.noiredev.sandbox.lib.KCVar;
 import com.n0n3m4.q3e.karin.KidTech4Command;
 
 public class CVarSetting_checkbox extends CheckBox implements CVarSettingInterface

@@ -9,7 +9,7 @@
         android:key="debug"
         android:title="@string/debug"
     >
-        <com.karin.idTech4Amm.widget.SeekBarPreference
+        <org.noiredev.sandbox.widget.SeekBarPreference
             android:dialogTitle="@string/update_interval_second_0_disable"
             android:key="harm_render_mem_status"
             android:summary="@string/if_you_do_not_want_to_debug_memory_usage_status_please_do_not_check_it_because_it_is_a_taking_time_operation"

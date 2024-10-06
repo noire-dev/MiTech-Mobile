@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.sys;
+package org.noiredev.sandbox.sys;
 
 public class PreferenceKey
 {

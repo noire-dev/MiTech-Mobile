@@ -5,11 +5,11 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.misc.TextHelper;
-import com.karin.idTech4Amm.network.CheckUpdate;
-import com.karin.idTech4Amm.sys.Constants;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.misc.TextHelper;
+import org.noiredev.sandbox.network.CheckUpdate;
+import org.noiredev.sandbox.sys.Constants;
 import com.n0n3m4.DIII4A.GameLauncher;
 import com.n0n3m4.q3e.Q3ELang;
 

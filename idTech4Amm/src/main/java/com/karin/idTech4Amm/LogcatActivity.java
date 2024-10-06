@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm;
+package org.noiredev.sandbox;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.sys.Constants;
-import com.karin.idTech4Amm.sys.PreferenceKey;
-import com.karin.idTech4Amm.sys.Theme;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.sys.Constants;
+import org.noiredev.sandbox.sys.PreferenceKey;
+import org.noiredev.sandbox.sys.Theme;
 import com.n0n3m4.q3e.Q3ELang;
 import com.n0n3m4.q3e.Q3EUtils;
 import com.n0n3m4.q3e.karin.KLogcat;

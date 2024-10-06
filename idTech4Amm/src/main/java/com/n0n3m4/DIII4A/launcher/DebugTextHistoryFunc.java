@@ -8,8 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.misc.TextHelper;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.misc.TextHelper;
 import com.n0n3m4.DIII4A.GameLauncher;
 
 import java.util.LinkedList;

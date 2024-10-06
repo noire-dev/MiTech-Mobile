@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.ui;
+package org.noiredev.sandbox.ui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.karin.idTech4Amm.misc.FileBrowser;
-import com.karin.idTech4Amm.sys.Theme;
+import org.noiredev.sandbox.misc.FileBrowser;
+import org.noiredev.sandbox.sys.Theme;
 
 public class FileViewAdapter extends ArrayAdapter_base<FileBrowser.FileModel>
 {

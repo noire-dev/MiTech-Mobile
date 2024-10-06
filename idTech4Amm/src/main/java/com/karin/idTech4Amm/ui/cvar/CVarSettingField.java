@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.ui.cvar;
+package org.noiredev.sandbox.ui.cvar;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -9,8 +9,8 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.karin.idTech4Amm.lib.KCVar;
-import com.karin.idTech4Amm.sys.Theme;
+import org.noiredev.sandbox.lib.KCVar;
+import org.noiredev.sandbox.sys.Theme;
 
 public class CVarSettingField extends LinearLayout implements CompoundButton.OnCheckedChangeListener
 {

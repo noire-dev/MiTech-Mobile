@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.lib;
+package org.noiredev.sandbox.lib;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -29,10 +29,10 @@ import android.widget.TextView;
 import android.text.util.Linkify;
 import android.text.method.LinkMovementMethod;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.misc.Function;
-import com.karin.idTech4Amm.misc.TextHelper;
-import com.karin.idTech4Amm.sys.Constants;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.misc.Function;
+import org.noiredev.sandbox.misc.TextHelper;
+import org.noiredev.sandbox.sys.Constants;
 import com.n0n3m4.q3e.Q3ELang;
 import com.n0n3m4.q3e.Q3EUtils;
 import com.n0n3m4.q3e.karin.KStr;

@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.lib;
+package org.noiredev.sandbox.lib;
 
 import com.n0n3m4.q3e.Q3EUtils;
 

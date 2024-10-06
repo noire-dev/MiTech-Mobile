@@ -9,11 +9,11 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.misc.TextHelper;
-import com.karin.idTech4Amm.sys.Constants;
-import com.karin.idTech4Amm.ui.ArrayAdapter_base;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.misc.TextHelper;
+import org.noiredev.sandbox.sys.Constants;
+import org.noiredev.sandbox.ui.ArrayAdapter_base;
 import com.n0n3m4.DIII4A.GameLauncher;
 import com.n0n3m4.q3e.Q3ELang;
 

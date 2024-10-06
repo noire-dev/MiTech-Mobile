@@ -1,10 +1,10 @@
-package com.karin.idTech4Amm.ui.cvar;
+package org.noiredev.sandbox.ui.cvar;
 
 import android.content.Context;
 import android.view.View;
 
-import com.karin.idTech4Amm.lib.Utility;
-import com.karin.idTech4Amm.lib.KCVar;
+import org.noiredev.sandbox.lib.Utility;
+import org.noiredev.sandbox.lib.KCVar;
 
 public final class CVarSettingUI
 {

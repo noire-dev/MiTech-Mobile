@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.lib.FileUtility;
-import com.karin.idTech4Amm.lib.Utility;
-import com.karin.idTech4Amm.misc.FileBrowser;
-import com.karin.idTech4Amm.misc.Function;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.lib.FileUtility;
+import org.noiredev.sandbox.lib.Utility;
+import org.noiredev.sandbox.misc.FileBrowser;
+import org.noiredev.sandbox.misc.Function;
 import com.n0n3m4.DIII4A.GameLauncher;
 import com.n0n3m4.q3e.Q3EGlobals;
 import com.n0n3m4.q3e.Q3ELang;

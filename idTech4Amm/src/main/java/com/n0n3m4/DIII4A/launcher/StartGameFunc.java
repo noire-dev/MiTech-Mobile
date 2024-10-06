@@ -3,8 +3,8 @@ package com.n0n3m4.DIII4A.launcher;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.lib.ContextUtility;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.lib.ContextUtility;
 import com.n0n3m4.DIII4A.GameLauncher;
 import com.n0n3m4.q3e.Q3ELang;
 import com.n0n3m4.q3e.Q3EMain;

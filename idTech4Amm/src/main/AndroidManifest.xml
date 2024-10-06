@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.karin.idTech4Amm"
+    package="org.noiredev.sandbox"
     android:versionCode="11056"
     android:versionName="1.1.0harmattan56"
     android:installLocation="preferExternal"
@@ -80,28 +80,28 @@
         <activity android:label="@string/config_editor_name"
             android:launchMode="standard"
             android:exported="true"
-            android:name="com.karin.idTech4Amm.ConfigEditorActivity"
+            android:name="org.noiredev.sandbox.ConfigEditorActivity"
             android:windowSoftInputMode="stateHidden|stateUnchanged"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
         </activity>
         <activity android:label="@string/key_config_page_name"
             android:launchMode="standard"
             android:exported="true"
-            android:name="com.karin.idTech4Amm.OnScreenButtonConfigActivity"
+            android:name="org.noiredev.sandbox.OnScreenButtonConfigActivity"
             android:windowSoftInputMode="stateHidden|stateUnchanged"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
         </activity>
         <activity android:label="Logcat"
             android:launchMode="standard"
             android:exported="true"
-            android:name="com.karin.idTech4Amm.LogcatActivity"
+            android:name="org.noiredev.sandbox.LogcatActivity"
             android:windowSoftInputMode="stateHidden|stateUnchanged"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
         </activity>
 
         <provider
-            android:name="com.karin.idTech4Amm.AndroidDataDocumentsProvider"
-            android:authorities="com.karin.idTech4Amm.android.data.documents"
+            android:name="org.noiredev.sandbox.AndroidDataDocumentsProvider"
+            android:authorities="org.noiredev.sandbox.android.data.documents"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -111,8 +111,8 @@
         </provider>
 
         <provider
-            android:name="com.karin.idTech4Amm.DataUserDocumentsProvider"
-            android:authorities="com.karin.idTech4Amm.data.user.documents"
+            android:name="org.noiredev.sandbox.DataUserDocumentsProvider"
+            android:authorities="org.noiredev.sandbox.data.user.documents"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -122,8 +122,8 @@
         </provider>
 
         <provider
-            android:name="com.karin.idTech4Amm.DIII4ADocumentsProvider"
-            android:authorities="com.karin.idTech4Amm.diii4a.documents"
+            android:name="org.noiredev.sandbox.DIII4ADocumentsProvider"
+            android:authorities="org.noiredev.sandbox.diii4a.documents"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">

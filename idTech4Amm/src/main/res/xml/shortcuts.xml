@@ -9,7 +9,7 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.RUN"
-            android:targetPackage="com.karin.idTech4Amm"
+            android:targetPackage="org.noiredev.sandbox"
             android:targetClass="com.n0n3m4.q3e.Q3EMain"
             android:name="android.shortcut.conversation"/>
     </shortcut>
@@ -22,7 +22,7 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.karin.idTech4Amm"
+            android:targetPackage="org.noiredev.sandbox"
             android:targetClass="com.n0n3m4.DIII4A.GameLauncher"
             android:name="android.shortcut.conversation">
             <extra android:name="game" android:value="prey2006"/>
@@ -37,7 +37,7 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.karin.idTech4Amm"
+            android:targetPackage="org.noiredev.sandbox"
             android:targetClass="com.n0n3m4.DIII4A.GameLauncher"
             android:name="android.shortcut.conversation">
             <extra android:name="game" android:value="quake4"/>
@@ -52,7 +52,7 @@
         tools:targetApi="n_mr1">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.karin.idTech4Amm"
+            android:targetPackage="org.noiredev.sandbox"
             android:targetClass="com.n0n3m4.DIII4A.GameLauncher"
             android:name="android.shortcut.conversation">
             <extra android:name="game" android:value="doom3"/>

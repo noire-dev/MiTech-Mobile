@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.lib;
+package org.noiredev.sandbox.lib;
 
 import android.text.InputType;
 import android.util.Log;

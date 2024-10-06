@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:myapp="http://schemas.android.com/apk/res/com.karin.idTech4Amm"
+    xmlns:myapp="http://schemas.android.com/apk/res/org.noiredev.sandbox"
     android:id="@+id/launcher_tab1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -130,7 +130,7 @@
 
             </LinearLayout>
 
-            <com.karin.idTech4Amm.widget.Divider
+            <org.noiredev.sandbox.widget.Divider
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 myapp:label="@string/_mod"
@@ -313,7 +313,7 @@
                 android:orientation="vertical">
 
                 <!-- Lighting -->
-                <com.karin.idTech4Amm.widget.Divider
+                <org.noiredev.sandbox.widget.Divider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     myapp:label="@string/lighting"
@@ -468,7 +468,7 @@
                     android:text="@string/disable_lighting" />
 
                 <!-- Shadow -->
-                <com.karin.idTech4Amm.widget.Divider
+                <org.noiredev.sandbox.widget.Divider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     myapp:label="@string/shadow"
@@ -602,7 +602,7 @@
                 </LinearLayout>
 
                 <!-- Render system -->
-                <com.karin.idTech4Amm.widget.Divider
+                <org.noiredev.sandbox.widget.Divider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     myapp:label="@string/renderer"
@@ -731,7 +731,7 @@
                 </RadioGroup>
 
                 <!-- Image -->
-                <com.karin.idTech4Amm.widget.Divider
+                <org.noiredev.sandbox.widget.Divider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     myapp:label="@string/image"
@@ -769,7 +769,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.karin.idTech4Amm.widget.Divider
+                <org.noiredev.sandbox.widget.Divider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     myapp:label="@string/_sound"
@@ -817,7 +817,7 @@
                     android:text="@string/using_efx_reverb" />
             </LinearLayout>
 
-                <com.karin.idTech4Amm.widget.Divider
+                <org.noiredev.sandbox.widget.Divider
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     myapp:label="@string/other"

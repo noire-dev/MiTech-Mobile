@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm;
+package org.noiredev.sandbox;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -17,9 +17,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.sys.PreferenceKey;
-import com.karin.idTech4Amm.sys.Theme;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.sys.PreferenceKey;
+import org.noiredev.sandbox.sys.Theme;
 import com.n0n3m4.q3e.Q3ELang;
 import com.n0n3m4.q3e.Q3EUtils;
 

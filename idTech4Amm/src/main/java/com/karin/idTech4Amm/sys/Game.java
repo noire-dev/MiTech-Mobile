@@ -1,8 +1,8 @@
-package com.karin.idTech4Amm.sys;
+package org.noiredev.sandbox.sys;
 
 import android.content.Context;
 
-import com.karin.idTech4Amm.R;
+import org.noiredev.sandbox.R;
 import com.n0n3m4.q3e.Q3EGlobals;
 import com.n0n3m4.q3e.Q3ELang;
 

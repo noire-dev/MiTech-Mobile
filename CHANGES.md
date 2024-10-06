@@ -20,7 +20,7 @@
 * Add PBR interaction lighting model([jmarshall23's idtech4_pbr](https://github.com/jmarshall23/idtech4_pbr))(setup cvar harm_r_lightingModel 3) in DOOM3/Quake4/Prey.
 * Fix large shake of player view with OpenAL in DOOM3/Quake4/Prey.
 * Add command history record manager in launcher.
-* Add `/sdcard/Android/data/com.karin.idTech4Amm/files/diii4a` to game data search path(exclude Quake1), add current game data path tips.
+* Add `/sdcard/Android/data/org.noiredev.sandbox/files/diii4a` to game data search path(exclude Quake1), add current game data path tips.
 * Optimize ETC1 compression texture cache in DOOM3/Quake4/Prey, add ETC2 compression texture support(cvar r_useETC2) in OpenGLES3.0.
 * Add launcher theme setting.
 
@@ -154,7 +154,7 @@
 * Add setup all on-screen buttons size in tab `CONTROLS`.
 * Add grid assist in tab `CONTROLS`'s `Configure on-screen controls` if setup `On-screen buttons position unit` of settings greater than 0.
 * Support unfixed-position joystick and inner dead zone.
-* Support custom on-screen button's texture image. If button image file exists in `/sdcard/Android/data/com.karin.idTech4Amm/files/assets` as same file name, will using external image file instead of apk internal image file. Or put button image files as a folder in `/sdcard/Android/data/com.karin.idTech4Amm/files/assets/controls_theme/`, and then select folder name with `Setup on-screen button theme` on `CONTROLS` tab.
+* Support custom on-screen button's texture image. If button image file exists in `/sdcard/Android/data/org.noiredev.sandbox/files/assets` as same file name, will using external image file instead of apk internal image file. Or put button image files as a folder in `/sdcard/Android/data/org.noiredev.sandbox/files/assets/controls_theme/`, and then select folder name with `Setup on-screen button theme` on `CONTROLS` tab.
 * New mouse support implement.
 
 ----------------------------------------------------------------------------------

@@ -1,8 +1,8 @@
-package com.karin.idTech4Amm.sys;
+package org.noiredev.sandbox.sys;
 
-import com.karin.idTech4Amm.BuildConfig;
-import com.karin.idTech4Amm.lib.DateTimeUtility;
-import com.karin.idTech4Amm.misc.TextHelper;
+import org.noiredev.sandbox.BuildConfig;
+import org.noiredev.sandbox.lib.DateTimeUtility;
+import org.noiredev.sandbox.misc.TextHelper;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -23,8 +23,8 @@ public final class Constants
     public static final String CONST_TIEBA = "https://tieba.baidu.com/p/6825594793";
 	public static final String CONST_DEVELOPER = "https://github.com/glKarin";
     public static final String CONST_DEVELOPER_XDA = "https://forum.xda-developers.com/member.php?u=10584229";
-    public static final String CONST_PACKAGE = "com.karin.idTech4Amm";
-    public static final String CONST_FDROID = "https://f-droid.org/packages/com.karin.idTech4Amm/";
+    public static final String CONST_PACKAGE = "org.noiredev.sandbox";
+    public static final String CONST_FDROID = "https://f-droid.org/packages/org.noiredev.sandbox/";
 	public static final String CONST_CHECK_FOR_UPDATE_URL = "https://raw.githubusercontent.com/glKarin/com.n0n3m4.diii4a/master/CHECK_FOR_UPDATE.json";
     public static final String CONST_LICENSE_URL = "https://raw.githubusercontent.com/glKarin/com.n0n3m4.diii4a/master/LICENSE";
 	public static String[] CONST_CHANGES()

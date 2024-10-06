@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.misc.Function;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.misc.Function;
 import com.n0n3m4.DIII4A.GameLauncher;
 import com.n0n3m4.q3e.Q3ELang;
 import com.n0n3m4.q3e.karin.KStr;

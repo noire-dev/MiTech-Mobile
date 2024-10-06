@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.ui.cvar;
+package org.noiredev.sandbox.ui.cvar;
 
 import android.content.Context;
 import android.util.Log;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
-import com.karin.idTech4Amm.lib.KCVar;
-import com.karin.idTech4Amm.lib.KCVarSystem;
+import org.noiredev.sandbox.lib.KCVar;
+import org.noiredev.sandbox.lib.KCVarSystem;
 
 import java.util.List;
 

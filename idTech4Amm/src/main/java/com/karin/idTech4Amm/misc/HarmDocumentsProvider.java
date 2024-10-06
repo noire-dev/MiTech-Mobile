@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.misc;
+package org.noiredev.sandbox.misc;
 
 import android.annotation.TargetApi;
 import android.content.res.AssetFileDescriptor;
@@ -13,7 +13,7 @@ import android.provider.DocumentsContract.Root;
 import android.provider.DocumentsProvider;
 import android.webkit.MimeTypeMap;
 
-import com.karin.idTech4Amm.R;
+import org.noiredev.sandbox.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

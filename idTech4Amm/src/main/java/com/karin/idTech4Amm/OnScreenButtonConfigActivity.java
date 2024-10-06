@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm;
+package org.noiredev.sandbox;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,11 +10,11 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.preference.PreferenceManager;
 
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.lib.Utility;
-import com.karin.idTech4Amm.sys.PreferenceKey;
-import com.karin.idTech4Amm.sys.Theme;
-import com.karin.idTech4Amm.ui.ArrayAdapter_base;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.lib.Utility;
+import org.noiredev.sandbox.sys.PreferenceKey;
+import org.noiredev.sandbox.sys.Theme;
+import org.noiredev.sandbox.ui.ArrayAdapter_base;
 import com.n0n3m4.q3e.Q3EGlobals;
 import com.n0n3m4.q3e.Q3EPreference;
 import com.n0n3m4.q3e.Q3EUtils;

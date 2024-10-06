@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.widget;
+package org.noiredev.sandbox.widget;
 
 import android.preference.DialogPreference;
 import android.util.AttributeSet;
@@ -13,7 +13,7 @@ import android.content.res.TypedArray;
 import android.annotation.SuppressLint;
 import android.os.Build;
 
-import com.karin.idTech4Amm.R;
+import org.noiredev.sandbox.R;
 
 /**
  * SeekBar preference widget

@@ -470,5 +470,5 @@ If you have questions concerning this license or the applicable additional terms
 
 #endif
 
-#define ANDROID_DEFAULT_PATH			"/sdcard/Android/data/com.karin.idTech4Amm"
+#define ANDROID_DEFAULT_PATH			"/sdcard/Android/data/org.noiredev.sandbox"
 

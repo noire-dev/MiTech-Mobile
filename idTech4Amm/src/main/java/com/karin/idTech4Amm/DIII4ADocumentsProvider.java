@@ -1,10 +1,10 @@
-package com.karin.idTech4Amm;
+package org.noiredev.sandbox;
 
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.preference.PreferenceManager;
 
-import com.karin.idTech4Amm.misc.HarmDocumentsProvider;
+import org.noiredev.sandbox.misc.HarmDocumentsProvider;
 import com.n0n3m4.DIII4A.GameLauncher;
 import com.n0n3m4.q3e.Q3EPreference;
 

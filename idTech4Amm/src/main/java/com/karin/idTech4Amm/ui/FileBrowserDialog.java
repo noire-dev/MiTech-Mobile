@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.ui;
+package org.noiredev.sandbox.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.widget.ListView;
 
 import android.app.AlertDialog;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.misc.FileBrowser;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.misc.FileBrowser;
 import com.n0n3m4.q3e.Q3ELang;
 
 /**

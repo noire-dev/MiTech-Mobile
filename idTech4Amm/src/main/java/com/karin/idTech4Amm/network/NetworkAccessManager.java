@@ -1,9 +1,9 @@
-package com.karin.idTech4Amm.network;
+package org.noiredev.sandbox.network;
 
 import android.annotation.SuppressLint;
 
-import com.karin.idTech4Amm.lib.FileUtility;
-import com.karin.idTech4Amm.lib.ThreadUtility;
+import org.noiredev.sandbox.lib.FileUtility;
+import org.noiredev.sandbox.lib.ThreadUtility;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;

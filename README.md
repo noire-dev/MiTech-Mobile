@@ -69,7 +69,7 @@ GPLv3
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/com.karin.idTech4Amm/)
+     height="80">](https://f-droid.org/packages/org.noiredev.sandbox/)
 
 Or download the latest APK from the [Releases Section](https://github.com/glKarin/com.n0n3m4.diii4a/releases/latest).
 Tag with `-free` only for F-Droid update.
@@ -365,5 +365,5 @@ Define macro `_MOD_FULL_BODY_AWARENESS` will compile Full-body-awareness support
 
 * [Baidu网盘: https://pan.baidu.com/s/1hXvKmrajAACfcCj9_ThZ_w](https://pan.baidu.com/s/1hXvKmrajAACfcCj9_ThZ_w) 提取码: `pyyj`
 * [Baidu贴吧: BEYONDK2000](https://tieba.baidu.com/p/6825594793)
-* [F-Droid(different signature)](https://f-droid.org/packages/com.karin.idTech4Amm/)
+* [F-Droid(different signature)](https://f-droid.org/packages/org.noiredev.sandbox/)
 ----------------------------------------------------------------------------------

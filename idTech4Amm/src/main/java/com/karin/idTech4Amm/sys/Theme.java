@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.sys;
+package org.noiredev.sandbox.sys;
 
 import android.app.Activity;
 import android.content.Context;

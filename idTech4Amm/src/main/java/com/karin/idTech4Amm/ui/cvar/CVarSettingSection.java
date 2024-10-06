@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.ui.cvar;
+package org.noiredev.sandbox.ui.cvar;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.karin.idTech4Amm.lib.KCVar;
+import org.noiredev.sandbox.lib.KCVar;
 
 public class CVarSettingSection extends LinearLayout
 {

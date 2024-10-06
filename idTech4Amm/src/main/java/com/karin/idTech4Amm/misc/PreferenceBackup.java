@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.misc;
+package org.noiredev.sandbox.misc;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.karin.idTech4Amm.sys.Constants;
+import org.noiredev.sandbox.sys.Constants;
 
 import org.json.JSONObject;
 import org.w3c.dom.Document;

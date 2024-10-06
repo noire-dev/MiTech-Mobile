@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.misc;
+package org.noiredev.sandbox.misc;
 
 public interface Function
 {

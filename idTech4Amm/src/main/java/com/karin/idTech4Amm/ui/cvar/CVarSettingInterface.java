@@ -1,6 +1,6 @@
-package com.karin.idTech4Amm.ui.cvar;
+package org.noiredev.sandbox.ui.cvar;
 
-import com.karin.idTech4Amm.lib.KCVar;
+import org.noiredev.sandbox.lib.KCVar;
 
 public interface CVarSettingInterface
 {

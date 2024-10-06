@@ -4,8 +4,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.ui.cvar.CVarSettingWidget;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.ui.cvar.CVarSettingWidget;
 import com.n0n3m4.DIII4A.GameLauncher;
 
 public final class CVarEditorFunc extends GameLauncherFunc

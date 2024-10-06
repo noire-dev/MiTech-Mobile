@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.widget;
+package org.noiredev.sandbox.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.karin.idTech4Amm.R;
+import org.noiredev.sandbox.R;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,13 +1,13 @@
-package com.karin.idTech4Amm.misc;
+package org.noiredev.sandbox.misc;
 
 import android.content.Context;
 import android.net.Uri;
 import android.support.v4.provider.DocumentFile;
 import android.util.Log;
 
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.lib.FileUtility;
-import com.karin.idTech4Amm.lib.Utility;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.lib.FileUtility;
+import org.noiredev.sandbox.lib.Utility;
 
 import java.io.File;
 import java.util.ArrayList;

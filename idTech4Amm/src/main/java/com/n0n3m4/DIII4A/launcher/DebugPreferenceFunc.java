@@ -4,8 +4,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.misc.TextHelper;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.misc.TextHelper;
 import com.n0n3m4.DIII4A.GameLauncher;
 
 import java.util.Map;

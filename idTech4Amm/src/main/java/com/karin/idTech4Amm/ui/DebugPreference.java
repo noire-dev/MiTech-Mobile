@@ -1,4 +1,4 @@
-package com.karin.idTech4Amm.ui;
+package org.noiredev.sandbox.ui;
 import android.content.Intent;
 import android.os.Process;
 import android.preference.PreferenceFragment;
@@ -12,10 +12,10 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.widget.Toast;
 
-import com.karin.idTech4Amm.LogcatActivity;
-import com.karin.idTech4Amm.R;
-import com.karin.idTech4Amm.lib.ContextUtility;
-import com.karin.idTech4Amm.sys.Constants;
+import org.noiredev.sandbox.LogcatActivity;
+import org.noiredev.sandbox.R;
+import org.noiredev.sandbox.lib.ContextUtility;
+import org.noiredev.sandbox.sys.Constants;
 import com.n0n3m4.q3e.Q3EMain;
 import com.n0n3m4.q3e.Q3EPreference;
 import com.n0n3m4.q3e.Q3ELang;
