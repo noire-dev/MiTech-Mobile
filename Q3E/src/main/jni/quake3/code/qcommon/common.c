@@ -67,6 +67,7 @@ cvar_t	*com_timedemo;
 cvar_t	*com_sv_running;
 cvar_t	*com_cl_running;
 cvar_t	*cl_selectedmod;
+cvar_t	*cl_android;
 cvar_t	*com_logfile;		// 1 = buffer log, 2 = flush after each print
 cvar_t	*com_pipefile;
 cvar_t	*com_showtrace;
@@ -2697,6 +2698,7 @@ void Com_Init( char *commandLine ) {
 	CL_InitKeyCommands();
 
 	cl_selectedmod = Cvar_Get("cl_selectedmod", "default", CVAR_ARCHIVE | CVAR_SERVERINFO);
+	cl_android = Cvar_Get("cl_android", "1", CVAR_ARCHIVE);
 
 	com_standalone = Cvar_Get("com_standalone", "0", CVAR_ROM);
 	com_basegame = Cvar_Get("com_basegame", BASEGAME, CVAR_INIT);

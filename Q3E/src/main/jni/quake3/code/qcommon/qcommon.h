@@ -885,6 +885,7 @@ extern	cvar_t	*com_protocol;
 extern	cvar_t	*com_legacyprotocol;
 #endif
 extern 	cvar_t	*cl_selectedmod;
+extern 	cvar_t	*cl_android;
 #ifndef DEDICATED
 extern  cvar_t  *con_autochat;
 #endif
